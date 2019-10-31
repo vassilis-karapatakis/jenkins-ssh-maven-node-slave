@@ -1,4 +1,6 @@
-FROM jenkins/ssh-slave:latest
+FROM jenkins/ssh-slave
+
+LABEL maintainer="Vassilis Karapatakis <vassilis.karapatakis@iteam.gr>"
 
 USER root
 
