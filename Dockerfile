@@ -1,4 +1,4 @@
-FROM jenkins/ssh-slave
+FROM jenkins/ssh-slave:latest
 
 LABEL maintainer="Vassilis Karapatakis <vassilis.karapatakis@iteam.gr>"
 
