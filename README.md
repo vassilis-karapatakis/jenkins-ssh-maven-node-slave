@@ -1,5 +1,11 @@
 # Jenkins SSH slave Docker image with Maven & Node.js
 
+[![Docker](https://github.com/vassilis-karapatakis/jenkins-ssh-maven-node-slave/actions/workflows/docker.yml/badge.svg)](https://github.com/vassilis-karapatakis/jenkins-ssh-maven-node-slave/actions/workflows/docker.yml)
+
+[![CodeFactor](https://www.codefactor.io/repository/github/vassilis-karapatakis/jenkins-ssh-maven-node-slave/badge)](https://www.codefactor.io/repository/github/vassilis-karapatakis/jenkins-ssh-maven-node-slave)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/853af5b201f142ef94dcb5eb89020996)](https://www.codacy.com/gh/vassilis-karapatakis/jenkins-ssh-maven-node-slave/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vassilis-karapatakis/jenkins-ssh-maven-node-slave&amp;utm_campaign=Badge_Grade)
+
 Extend the [Jenkins SSH slave Docker image](https://hub.docker.com/r/jenkins/ssh-slave/) with [Apache Maven](https://maven.apache.org) and [Node.js](https://nodejs.org).
 
 A [Jenkins](https://jenkins.io) slave using SSH to establish connection.
