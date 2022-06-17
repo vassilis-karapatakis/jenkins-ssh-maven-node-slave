@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: vkarapatakis/java-build-tools
+  IMAGE_NAME: vkarapatakis/jenkins-ssh-maven-node-slave
   IMAGE_TAG: 3.8.6-node16
 
 jobs:
