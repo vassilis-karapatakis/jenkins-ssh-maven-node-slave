@@ -3,10 +3,29 @@
 
 version: 2
 updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      time: "06:00"
+      timezone: "Europe/Athens"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "vassilis-karapatakis"
+    assignees:
+      - "vassilis-karapatakis"
+
+  # Maintain dependencies for Docker
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
-      time: "03:00"
+      day: "sunday"
+      time: "04:00"
       timezone: "Europe/Athens"
     open-pull-requests-limit: 10
+    reviewers:
+      - "vassilis-karapatakis"
+    assignees:
+      - "vassilis-karapatakis"
